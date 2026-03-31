@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Resume Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap"
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div class="page">
+    <main class="content">
+        <section class="card collapsible open reveal" style="--delay: 80ms;">
+            <button class="toggle" type="button" aria-expanded="true">
+          <span class="toggle-text">
+            <span class="toggle-title">Profile</span>
+          </span>
+                <span class="icon" aria-hidden="true">−</span>
+            </button>
+            <div class="panel">
+                <div class="panel-inner">
+                    <div class="profile">
+                        <img
+                                class="avatar"
+                                src="photo.jpg"
+                                alt="Ваше фото"
+                        />
+                        <div class="profile-info">
+                            <h1>Мурашов Никита Александрович</h1>
+                            <p class="subtitle">Backend programmer/ ML engineer / AI developer/ DataScientist </p>
+                            <p class="lead">
+                                Разработчик, умеющий работать в команде, быстро адаптирующийся к любой ситуации,
+                                разбирающийся в новейших технологиях, имеющий опыт как в науке, так и в корпоративных
+                                проектах.
+                            </p>
+                            <div class="quick-links">
+                                <a href="https://t.me/murior" target="_blank" rel="noopener noreferrer">Telegram</a>
+                                <a href="https://github.com/Nick-Mur" target="_blank"
+                                   rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card collapsible open reveal" style="--delay: 150ms;">
+            <button class="toggle" type="button" aria-expanded="true">
+          <span class="toggle-text">
+            <span class="toggle-title">About</span>
+          </span>
+                <span class="icon" aria-hidden="true">−</span>
+            </button>
+            <div class="panel">
+                <div class="panel-inner">
+                    <p class="about-text">
+                        Я разработчик с многолетним опытом. Работаю на языке Python.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+         <section class="card collapsible open reveal" style="--delay: 290ms;">
+            <button class="toggle" type="button" aria-expanded="true">
+          <span class="toggle-text">
+            <span class="toggle-title">Skills</span>
+          </span>
+                <span class="icon" aria-hidden="true">−</span>
+            </button>
+            <div class="panel">
+                <div class="panel-inner">
+                    <ul class="skills">
+                        <li>Python 3</li>
+                        <li>SQL</li>
+                        <li>NumPy / Pandas / Scikit-learn / Pydantic</li>
+                        <li>PyTorch / TensorFlow</li>
+                        <li>Docker / Docker Compose / Nginx</li>
+                        <li>AI (Whisper / Google Gemini / Stable Diffusion / Anthropic Claude / OpenAI ChatGPT)</li>
+                        <li>Media processing (ffmpeg / Pillow / pdf2image)</li>
+                        <li>Git / Linux / CLI tools</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="card collapsible open reveal" style="--delay: 220ms;">
+            <button class="toggle" type="button" aria-expanded="true">
+          <span class="toggle-text">
+            <span class="toggle-title">Experience</span>
+          </span>
+                <span class="icon" aria-hidden="true">−</span>
+            </button>
+            <div class="panel">
+                <div class="panel-inner">
+                    <div class="experience-group">
+                        <h2>Коммерческий</h2>
+                        <article class="item">
+                            <h3>Лаборатории интеллектуальных сервисов и приложений ИТМО "LISA"</h3>
+                            <p class="meta">2024 — 2025</p>
+                            <p>
+                                Инструмент для контроля качества парсинга текстовых документов на основе машинного
+                                обучения.
+                                <br/><br/>
+                                Спроектировал модуль системы для контроля качества парсинга текстовых
+                                документов, определил архитектурный подход и подобрал инструменты для реализации.
+                                Исследовал ML-методы обработки текста и интегрировал их в концепцию решения с учетом
+                                надежности, расширяемости и качества результата.
+                                <br/><br/>
+                                Проект закрытый. Однако я был удостоен победы в номинации «За лучший доклад молодого
+                                ученого» на
+                                XIV Конгресс молодых ученых (Всероссийский уровень), участвуя с этим проектом.
+                                <br/>
+                                Можно проверить здесь: <a
+                                    href="https://kmu.itmo.ru/ru/arhiv/xiv-kongress-molodyh-uchenyh-2025-god"
+                                    target="_blank" rel="noopener noreferrer">XIV Конгресс молодых ученых</a>
+                        </article>
+                        <br/>
+                        <article class="item">
+                            <h3>Industrial AI. Research Lab</h3>
+                            <p class="meta">2025 — 2026</p>
+                            <p>
+                                Работал над интеллектуальными мультиагентными системами: проектировал и дорабатывал
+                                модули,
+                                рефакторил существующие компоненты с использованием паттернов проектирования и
+                                участвовал в решении
+                                задач data engineering.
+                        </article>
+                    </div>
+
+                    <div class="experience-group">
+                        <h2>Личные проекты</h2>
+                        <article class="item">
+                            <h3>Инструментарий для создания telegram-ботов формата одного сообщения</h3>
+                            <p>
+                                Разработал инструментарий для создания Telegram-ботов с одноэкранной моделью
+                                взаимодействия. Спроектировал модульную архитектуру, позволяющую быстро собирать
+                                сценарные и игровые решения на основе переиспользуемых компонентов.
+
+                                Реализовал управление пользовательскими сценариями через state machine (map-based
+                                routing), систему работы с сообщениями, клавиатурами и медиаконтентом, а также поддержку
+                                многоязычности. Добавил встроенные механики монетизации, включая платежи, токены и
+                                реферальную систему.
+
+                                Обеспечил конфигурацию приложения через переменные окружения и структуру проекта,
+                                ориентированную на масштабируемость и быстрое создание новых ботов.
+                            </p>
+                        </article>
+                        <br/><br/>
+                        <article class="item">
+                            <h3>Inspirion</h3>
+                            <p>
+                                Разработал веб-платформу для публикации и поиска творческих проектов. Реализовал
+                                клиентскую архитектуру на React с маршрутизацией, переиспользуемыми компонентами,
+                                кастомными хуками и интеграцией с backend API, включая сценарии авторизации, поиска,
+                                пользовательского профиля, рейтингов и пожертвований.
+                            </p>
+                        </article>
+                        <br/><br/>
+                        <article class="item">
+                            <h3>Subscription Service Bot</h3>
+                            <p>
+                                Разработал Telegram-бота для управления подписками с асинхронной архитектурой.
+                                Реализовал хранение данных через SQLite и SQLAlchemy, автоматическую проверку подписок
+                                через APScheduler и управление доступом пользователей к закрытому каналу.
+                            </p>
+                        </article>
+                        <br/><br/>
+                        <article class="item">
+                            <h3>Whisper Console App</h3>
+                            <p>
+                                Разработал CLI-инструмент для пакетной транскрибации аудио и видео файлов с
+                                использованием Whisper. Реализовал параллельную обработку файлов, поддержку различных
+                                форматов и выбор моделей транскрибации.
+                            </p>
+                        </article>
+                    </div>
+
+                    <div class="experience-group">
+                        <h2>Другое</h2>
+                        <article class="item">
+                            <h3>AI Product Hack 2025</h3>
+                            <p>
+                                Разработал backend SaaS-сервиса на Python/FastAPI для автоматической оценки презентаций
+                                с использованием AI. Реализовал многосоставной pipeline обработки документов и медиа,
+                                интеграцию Gemini и Whisper, хранение артефактов сессий и инфраструктуру развёртывания в
+                                контейнеризированной среде с Nginx и Docker Compose.
+                                <br/>
+                                Подробности можно посмотреть здесь: <a
+                                    href="https://github.com/Nick-Mur/AI-Product-Huck"
+                                    target="_blank" rel="noopener noreferrer">ссылка на GitHub репозиторий</a>
+                            </p>
+                        </article>
+                        <br/><br/>
+                        <article class="item">
+                            <h3>Лаборатория по воссозданию исторических панно </h3>
+                            <p>
+                                Разработал backend SaaS-сервиса на Python/FastAPI для автоматической оценки презентаций
+                                с использованием AI. Реализовал многосоставной pipeline обработки документов и медиа,
+                                интеграцию Gemini и Whisper, хранение артефактов сессий и инфраструктуру развёртывания в
+                                контейнеризированной среде с Nginx и Docker Compose.
+                                <br/>
+                                Подробнее о мероприятии можно прочитать здесь: <a
+                                    href="https://vk.com/wall-199642998_29300"
+                                    target="_blank" rel="noopener noreferrer">Пост в VK на данную тему</a>
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
