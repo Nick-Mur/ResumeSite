@@ -1,4 +1,4 @@
-﻿document.querySelectorAll('.collapsible').forEach((block) => {
+document.querySelectorAll('.collapsible').forEach((block) => {
   const button = block.querySelector('.toggle');
   const icon = block.querySelector('.icon');
 
